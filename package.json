@@ -6,16 +6,22 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "wrangler pages dev",
-    "deploy": "npm run build && wrangler pages deploy"
+    "deploy": "npm run build && wrangler pages deploy",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "semantic-release": "semantic-release"
   },
   "dependencies": {
     "hono": "^4.7.5",
     "semantic-release": "^24.2.3"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^4.10.2",
     "@cloudflare/workers-types": "^4.20250214.0",
     "@hono/vite-build": "^1.2.0",
     "@hono/vite-dev-server": "^0.18.2",
+    "eslint": "^9.22.0",
+    "eslint-plugin-format": "^1.0.1",
     "vite": "^6.1.1",
     "wrangler": "^4.4.0"
   }

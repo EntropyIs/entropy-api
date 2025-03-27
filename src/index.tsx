@@ -1,12 +1,13 @@
-import { Hono } from 'hono'
-import { renderer } from './renderer'
+import { Hono } from "hono";
 
-const app = new Hono()
+import { renderer } from "./renderer";
 
-app.use(renderer)
+const app = new Hono();
 
-app.get('/', (c) => {
-  return c.render(<h1>Hello!</h1>)
-})
+app.use(renderer);
 
-export default app
+app.get("/", (c) => {
+  return c.render(<h1>Hello!</h1>);
+});
+
+export default app;
