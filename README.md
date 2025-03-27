@@ -1,8 +1,10 @@
-```txt
-npm install
+# Entropy Is API Template
+
+```bash
+npm install @entropy-is/entropy-api
 npm run dev
 ```
 
-```txt
+```bash
 npm run deploy
 ```

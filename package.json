@@ -1,6 +1,7 @@
 {
-  "name": "entropy-api",
+  "name": "@entropy-is/entropy-api",
   "type": "module",
+  "version": "0.0.0-development",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -8,7 +9,8 @@
     "deploy": "npm run build && wrangler pages deploy"
   },
   "dependencies": {
-    "hono": "^4.7.5"
+    "hono": "^4.7.5",
+    "semantic-release": "^24.2.3"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20250214.0",
