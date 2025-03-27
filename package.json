@@ -12,8 +12,10 @@
     "semantic-release": "semantic-release"
   },
   "dependencies": {
+    "@hono/zod-openapi": "^0.19.2",
     "hono": "^4.7.5",
-    "semantic-release": "^24.2.3"
+    "semantic-release": "^24.2.3",
+    "zod": "^3.24.2"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^4.10.2",
