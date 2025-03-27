@@ -13,6 +13,9 @@
   },
   "dependencies": {
     "@hono/zod-openapi": "^0.19.2",
+    "@scalar/hono-api-reference": "^0.7.2",
+    "dotenv": "^16.4.7",
+    "dotenv-expand": "^12.0.1",
     "hono": "^4.7.5",
     "semantic-release": "^24.2.3",
     "zod": "^3.24.2"
